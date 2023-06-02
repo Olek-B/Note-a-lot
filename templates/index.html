@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Notes-a-lot</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">Home</a>
+      <form class="search-form" action="/" method="get">
+        <input type="text" name="search" placeholder="Search..." />
+        <button type="submit">Search</button>
+      </form>
+      <form class="search-form" action="/add" method="get">
+        <button type="submit">Create</button>
+      </form>
+    </header>
+    <main>{{ dane | safe }}</main>
+  </body>
+</html>

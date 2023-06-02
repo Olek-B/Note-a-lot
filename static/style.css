@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.search-form button[type="submit"] {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.search-form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 5px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+span {
+  font-weight: bold;
+  color: #333;
+}
+
+a {
+  color: #4caf50;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: #4caf50;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+pre {
+  white-space: pre-wrap;
+  max-width: 100%;
+}
+
+
+/* Styling for input field */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Styling for textarea field */
+.textarea-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Styling for submit button */
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
