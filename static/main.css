@@ -88,7 +88,6 @@ pre {
 }
 
 
-/* Styling for input field */
 .input-field {
   width: 100%;
   padding: 10px;
@@ -96,7 +95,6 @@ pre {
   font-size: 16px;
 }
 
-/* Styling for textarea field */
 .textarea-field {
   width: 100%;
   padding: 10px;
@@ -104,7 +102,6 @@ pre {
   font-size: 16px;
 }
 
-/* Styling for submit button */
 .submit-button {
   background-color: #4CAF50;
   color: white;
@@ -118,3 +115,13 @@ pre {
   background-color: #45a049;
 }
 
+.row{
+    display:flex;
+     justify-content: space-between;
+     border-bottom: 2px solid #4CAF50;
+
+}
+
+span{
+    width:70%;
+}
