@@ -39,6 +39,7 @@ def get_data(searched=""):
 @app.route("/")
 def index():
     search = request.args.get('search')
+    search = "" if search is None else search
     a=get_data(search)
     print(a)
     return render_template("index.html", dane=str(a))
